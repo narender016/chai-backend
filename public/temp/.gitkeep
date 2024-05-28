@@ -1,3 +1,8 @@
 # gitignore generator
 # nodemon
 # npm i -D nodemon //dev dependency
+#package json "type": "module",
+
+# npm i -D prettier //not use vs code extension // dev dependency
+-> create file :  .prettierrc
+-> create .prettierignore
