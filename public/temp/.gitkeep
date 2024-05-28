@@ -6,3 +6,7 @@
 # npm i -D prettier //not use vs code extension // dev dependency
 -> create file :  .prettierrc
 -> create .prettierignore
+
+# npm i dotenv
+#moongoose
+# express
