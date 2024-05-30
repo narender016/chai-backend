@@ -10,3 +10,6 @@
 # npm i dotenv
 #moongoose
 # express
+
+# cookie-parser
+# cors
