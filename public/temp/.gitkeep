@@ -13,3 +13,14 @@
 
 # cookie-parser
 # cors
+
+
+#npm i mongoose-aggregate-paginate-v2
+
+# bcrypt js vs node bcrypt js(used) : it help you to hash (encrypt ) password
+
+#jsonwebtoken
+//npm i bcrypt jsonwebtoken
+
+
+jwt is bearer token //jo is token to bear krta usko bhej dete h
