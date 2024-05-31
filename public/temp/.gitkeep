@@ -24,3 +24,9 @@
 
 
 jwt is bearer token //jo is token to bear krta usko bhej dete h
+
+
+#file upload - (AWS/cloudinary) we use multer(not express-fileupload)
+
+npm i cloudinary
+npm i multer
