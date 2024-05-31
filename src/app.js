@@ -14,4 +14,13 @@ app.use(express.urlencoded({extended:true, limit:"16kb"})) // extended mean nest
 app.use(express.static("public")) //public asset store feild pdf in my server
 app.use(cookieParser())
 
+//routes
+
+import userRouter from './routes/user.routes.js'
+
+
+//rourtes declaration
+
+app.use("/api/v1/users",userRouter)
+
 export {app}
