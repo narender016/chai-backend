@@ -91,11 +91,7 @@ const loginUser = asyncHandler(async (req, res) => {
   //send cookies
 
   const { email, username, password } = req.body;
-  console.log(`
-${email}
-${username}
-${password}
-`);
+
   if (!(username || email)) {
     throw new ApiError(400, "Username or email is required");
   }
@@ -114,13 +110,7 @@ ${password}
   }
  
   const { accessToken, refreshToken } = await generateAccessAndRefreshTokens(user._id);
-  console.log(`
-  ${accessToken}
-  ${refreshToken}
-  `);
-  console.log(`
-  usrid:${user._id}
-  `);
+
   const loggedInUser = await User.findById(user._id).select("-password -refreshToken");
   
   const options = {
