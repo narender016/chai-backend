@@ -49,7 +49,7 @@ router
 
 router
   .route("/cover-image")
-  .patch(verifyJwt, upload.single("/coverImage"), updateUserCoverImage);
+  .patch(verifyJwt, upload.single("coverImage"), updateUserCoverImage);
 
 router.route("/c/:username").get(verifyJwt, getUserChannelProfile);
 
